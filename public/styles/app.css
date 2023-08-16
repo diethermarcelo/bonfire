@@ -15,6 +15,11 @@
     --spacing-3: 6px;
     --spacing-4: 8px;
     --spacing-5: 10px;
+    --spacing-6: 12px;
+    --spacing-7: 14px;
+    --spacing-8: 16px;
+    --spacing-9: 18px;
+    --spacing-10: 20px;
 }
 
 @font-face {
@@ -51,6 +56,9 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
 /* Utilities */
 .d-flex {
     display: flex;
@@ -96,6 +104,37 @@ a {
 .p-5 {
     padding: var(--spacing-5);
 }
+
+.px-1 {
+    padding-left: var(--spacing-1);
+    padding-right: var(--spacing-1);
+}
+
+.px-2 {
+    padding-left: var(--spacing-5);
+    padding-right: var(--spacing-5);
+}
+
+.px-3 {
+    padding-left: var(--spacing-3);
+    padding-right: var(--spacing-3);
+}
+
+.px-4 {
+    padding-left: var(--spacing-4);
+    padding-right: var(--spacing-4);
+}
+
+.px-5 {
+    padding-left: var(--spacing-5);
+    padding-right: var(--spacing-5);
+}
+
+.px-10 {
+    padding-left: var(--spacing-10);
+    padding-right: var(--spacing-10);
+}
+
 
 .m-1 {
     padding: var(--spacing-1);

@@ -21,3 +21,16 @@ const capitalizeEachWord = (word) => {
     }
     return sentence;
 }
+
+/**
+ * add an event listener for each Node List
+ * @param {NodeList} list 
+ * @param {string} event 
+ * @param {Function} fn 
+ */
+const addEventListenerList = (list, event, fn) => {
+    for (let i = 0, len = list.length; i < len; i++) {
+        list[i].addEventListener(event, fn, false);
+    }
+}
+
