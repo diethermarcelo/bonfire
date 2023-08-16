@@ -63,27 +63,34 @@ const displayAppNavigations = () => {
  */
 const displayAppTitle = () => {
     const app_title_els = document.querySelectorAll('.display-app-title')    
+    const app_title = get_env('app_title');
     for(let app_title_el of app_title_els){
-        app_title_el.innerHTML = get_env('app_title');
+        app_title_el.innerHTML = app_title;
     }
 }
 
-
-const checkIfReroute = () => {
-    const current_before_reroute = window.sessionStorage.getItem('current_before_reroute')
-    window.sessionStorage.removeItem('current_before_reroute');
-    if(current_before_reroute) {
-        getContent(current_before_reroute);
-        window.history.pushState("Reroute", "", current_before_reroute);
-    } 
+const displayLogout = () => {
+    const logout_container = document.querySelector('.display-logout')
+    const logout = getEnvNavigationByName('logout');
+    logout_container.innerHTML = `
+        <div class="p-2 mt-10">
+            <a href="${logout.url}" />
+                <i class="${logout.icon} mr-3"></i> 
+                ${capitalizeEachWord(logout.name)} 
+            </a>
+        </div>
+    `
 }
+
 
 /**
  * prepare the application, includes displaying of app title, navigations, etc.
  */
 const prepareApp = () => {
     checkIfReroute();
+    checkIfLoggedIn();
     displayAppTitle();
     displayAppNavigations();
+    displayLogout();
 }
 

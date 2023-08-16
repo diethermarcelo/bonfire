@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="author" content=""/>
+        <meta name="description" content=""/>
+        <link rel="stylesheet" href="./../../styles/app.css">
+        <link rel="stylesheet" href="./../../styles/auth.css">
+        <link rel="icon" type="image/x-icon" href="./../images/favicon.ico">
+    </head>
+    <body>
+        <div class="d-flex">
+            <div class="md-w-100">
+    
+            </div>
+            <div class="w-100 text-center relative h-screen-100" id="authentication">
+                <div class="absolute w-100 left-0 slightly-center-absolute-vertically">
+                    <div id="authentication-text">
+                        <h2 class="text-large"> Welcome back! </h2>
+                        <p> Please enter your details. </p>
+                    </div>
+                    <form class="form" id="authentication-form">
+                        <div class="form-group max-w-300 mx-auto">
+                            <input class="w-100 d-block" type="text" name="" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group max-w-300 mx-auto">
+                            <input class="w-100 d-block" type="password" name="" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group max-w-300 mx-auto">
+                            <button class="w-100 form-control bg-dark text-white d-block" id="submit"> Log in </button>
+                            <button class="w-100 form-control d-block" type="button"> Log in with Google </button>
+                        </div>
+                    </form>  
+                </div>
+            </div>
+        </div>
+
+        <script src="./../../scripts/config/env.js"></script>
+        <script src="./../../scripts/helpers/common.js"></script>
+        <script src="./../../services/api.js"></script>
+        <script src="./../../scripts/auth.js"></script>
+    </body>
+
+</html>

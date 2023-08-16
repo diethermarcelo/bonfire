@@ -5,8 +5,8 @@ const app_env = {
     app_version: "0.0.0",
     app_navigations: [
         {
-            name: 'authentication',
-            url: pages_path + '/auth.html',
+            name: 'login',
+            url: pages_path + '/auth/login.html',
             isNotIncludedInDisplay: true
         },
         {
@@ -28,8 +28,16 @@ const app_env = {
             name: 'settings',
             url: pages_path + '/settings.html',
             icon: 'fa-solid fa-gears'
+        },
+        {
+            name: 'logout',
+            url: pages_path + '/auth/logout.html',
+            icon: 'fa-solid fa-right-from-bracket',
+            // useCallbackFunction: true
+            isNotIncludedInDisplay: true
         }
     ],
-    app_navigation_default_icon: 'fa-solid fa-globe'
+    app_navigation_default_icon: 'fa-solid fa-globe',
+    api_url: 'http://localhost:9000/data/'
 }
 
