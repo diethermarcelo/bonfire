@@ -17,6 +17,7 @@
 
 ## Setup:
 - git clone
+- create a live server (could be with use of python or live server of vs code)
 - open index.html in public/pages
 
 ## Resources & Credits:
