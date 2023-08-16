@@ -1,0 +1,11 @@
+/* Put this in Auth css */
+#authentication {
+    width: 100%;
+    padding: 40px 40px;
+    margin-top: 70px;
+}
+
+#authentication #authentication-text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
