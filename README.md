@@ -2,7 +2,9 @@
 - 
 
 ## Technologies:
-- 
+- HTML
+- CSS
+- JavaScript
 
 ## Features:
 - Authentication 

@@ -9,7 +9,7 @@ const get_env = (env) => {
 }
 
 /**
- * Capitalize first letter of each word
+ * capitalize first letter of each word
  * @param {string} word 
  * @returns string
  */

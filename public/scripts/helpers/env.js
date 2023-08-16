@@ -1,30 +1,32 @@
+const pages_path = '/public/pages';
+
 const app_env = {
     app_title: "ChatHub",
     app_version: "0.0.0",
     app_navigations: [
         {
             name: 'authentication',
-            url: '/public/pages/auth.html',
+            url: pages_path + '/auth.html',
             isNotIncludedInDisplay: true
         },
         {
             name: 'news feed',
-            url: '/public/pages/index.html',
+            url: pages_path + '/feed.html',
             icon: 'fa-solid fa-newspaper'
         },
         {
             name: 'chat',
-            url: '/public/pages/chat.html',
+            url: pages_path + '/chat.html',
             icon: 'fa-solid fa-comment'
         },
         {
             name: 'groups',
-            url: '/public/pages/groups.html',
+            url: pages_path + '/groups.html',
             icon: 'fa-solid fa-people-group'
         },
         {
             name: 'settings',
-            url: '/public/pages/settings.html',
+            url: pages_path + '/settings.html',
             icon: 'fa-solid fa-gears'
         }
     ],

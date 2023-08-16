@@ -1,4 +1,7 @@
 
+/**
+ * add event for navigations for clicking
+ */
 const activateNavigationEvents = () => {
     const navigations = document.querySelectorAll('.navigation > a');
     addEventListenerList(navigations, 'click', (e) => {
@@ -9,12 +12,20 @@ const activateNavigationEvents = () => {
     })
 }
 
+/**
+ * fetch link html for outputting to content
+ * @param {string} link 
+ */
 const getContent = async (link) => {
     fetch(link)
         .then(response => response.text())
         .then(html => outputContentToMain(html));
 }
 
+/**
+ * output html string to main container
+ * @param {string} html 
+ */
 const outputContentToMain = (html) => {
     const main = document.querySelector('#main-content')
     main.innerHTML = html;
@@ -57,21 +68,21 @@ const displayAppTitle = () => {
     }
 }
 
-// const displayLayout = () => {
-//     fetch("/public/pages/layout.html").then(response => {        
-// 	    return response.text();
-//     }).then((html) => {
-//         console.log(html, 'html')
-//     })
-// }
 
-
+const checkIfReroute = () => {
+    const current_before_reroute = window.sessionStorage.getItem('current_before_reroute')
+    window.sessionStorage.removeItem('current_before_reroute');
+    if(current_before_reroute) {
+        getContent(current_before_reroute);
+        window.history.pushState("Reroute", "", current_before_reroute);
+    } 
+}
 
 /**
  * prepare the application, includes displaying of app title, navigations, etc.
  */
 const prepareApp = () => {
-    // displayLayout();
+    checkIfReroute();
     displayAppTitle();
     displayAppNavigations();
 }
