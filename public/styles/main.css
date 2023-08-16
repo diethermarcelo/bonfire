@@ -1,0 +1,120 @@
+/* Customization */
+
+:root { 
+    --gray: #EEE;
+    --light: #FFF;
+    --dark: #333;
+    --default-padding: 5px;
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("./../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+/* Default Styles */
+* {
+    font-family: 'Roboto-Regular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--gray); 
+} 
+
+button {
+    border: 0;
+    padding: var(--default-padding);
+}
+
+input {
+    padding: var(--default-padding);
+}
+
+/* Utilities */
+.d-flex {
+    display: flex;
+}
+
+.d-block {
+    display: block;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.max-w-300 {
+    max-width: 300px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
+.text-white {
+    color: var(--light);
+}
+
+
+/* Components */
+.main-btn {
+    padding: 10px;
+}
+
+.form-group {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+/* Mobile Screen Sizes */
+@media screen and (min-width: 768px) {
+    .md-w-40 {
+        width: 40%;
+    }
+    .md-w-60 {
+        width: 60%;
+    }
+        
+}
+
+/* Put this in Auth css */
+#authentication {
+    width: 100%;
+    padding: 40px 40px;
+    margin-top: 70px;
+}
+
+#authentication #authentication-text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* #authentication #authentication-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */

@@ -1,0 +1,20 @@
+{
+  "name": "social-life-web",
+  "version": "1.0.0",
+  "description": "Frontend for Social Life site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "css",
+    "api",
+    "realtime",
+    "social",
+    "media"
+  ],
+  "author": "",
+  "license": "ISC"
+}

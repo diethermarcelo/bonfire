@@ -1,0 +1,12 @@
+[
+    {
+        "user_id": 1,
+        "user_first_name": "Diether",
+        "user_last_name": "Marcelo",
+        "user_email": "",
+        "user_password": "HASH", 
+        "user_created_at": "",
+        "user_updated_at": "",
+        "user_deleted_at": ""
+    }
+]
