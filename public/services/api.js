@@ -18,7 +18,7 @@ class APIRequest {
 } 
 
 class UsersAPI extends APIRequest{
-    endpoint = '/users.json'
+    endpoint = 'users.json'
 
     async getUserByEmail(email){
         const api_url = this.url + this.endpoint;

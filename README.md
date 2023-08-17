@@ -1,5 +1,5 @@
 # ChatHub Web
-- 
+- A mini social media
 
 ## Technologies:
 - HTML
@@ -10,6 +10,10 @@
 - Authentication 
 - Feed (Realtime)
 - Chat (Realtime)
+- Single Page Application
+- Group (Pending)
+- Settings (Pending)
+- Notifications (Pending)
 
 ## Developers:
 - Aljon Luzadio
