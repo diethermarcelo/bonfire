@@ -1,0 +1,33 @@
+#feeds {
+    padding: var(--spacing-5);
+}
+
+#feeds ul {
+}
+
+#feeds .feed {
+    /* padding: var(--spacing-10); */
+    background-color: var(--light);
+    box-shadow: var(--default-shadow);
+    /* margin: var(--spacing-10) 0; */
+    transition: var(--default-transition);
+}
+
+/* #feeds .feed:hover {
+    box-shadow: var(--darker-shadow);
+} */
+
+
+#feeds .feed .feed-image {
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+#feeds .feed * {
+    transition: var(--default-transition);    
+}
+
+#feeds .feed:hover img {
+    transform: scale(1.2);
+}

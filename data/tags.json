@@ -1,0 +1,26 @@
+[
+    {
+        "tag_id": 1,
+        "tag_post_id": 1,
+        "tag_name": "Car",
+        "tag_created_at": "",
+        "tag_updated_at": "",
+        "tag_deleted_at": ""
+    },
+    {
+        "tag_id": 2,
+        "tag_post_id": 1,
+        "tag_name": "Enthusiast",
+        "tag_created_at": "",
+        "tag_updated_at": "",
+        "tag_deleted_at": ""
+    },
+    {
+        "tag_id": 1,
+        "tag_post_id": 2,
+        "tag_name": "Motor",
+        "tag_created_at": "",
+        "tag_updated_at": "",
+        "tag_deleted_at": ""
+    }
+]

@@ -2,8 +2,55 @@
     {
         "post_id": 1,
         "post_user_id": 1,
+        "post_title": "Car Enthusiast",
+        "post_content": "Sed bibendum laoreet nisl ut maximus. Proin id eleifend magna. Nam dui orci, iaculis nec nulla quis, cursus gravida tellus. Nulla mollis velit non aliquet suscipit. Etiam pharetra sem non dui pellentesque accumsan. Morbi ullamcorper, purus at rhoncus ultrices, libero dui pharetra massa, id sollicitudin mi mi et felis. Suspendisse ac ligula quis lorem dapibus finibus. Phasellus cursus lorem finibus dolor tristique mollis. Nulla malesuada convallis lacus, eu dapibus metus dignissim tempor. Donec eu sagittis tortor. Morbi posuere leo nec faucibus convallis. Phasellus eu venenatis ipsum. Nam interdum ornare diam, at finibus lorem faucibus sed. Maecenas nisl odio, vehicula eget consectetur non, consectetur id est. Vivamus vitae lorem a eros pharetra rutrum.",
+        "post_thumbnail": "/public/uploads/pexels-vlad-alexandru-popa-1402787.jpg",
+        "post_slug": "car-enthusiast",
+        "post_created_at": "2023-08-17 14:15:36",
+        "post_updated_at": "",
+        "post_deleted_at": ""
+    },
+    {
+        "post_id": 2,
+        "post_user_id": 2,
+        "post_title": "Motor Enthusiast",
+        "post_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse metus velit, ornare at lobortis et, tempor eu augue. Curabitur viverra posuere dui nec accumsan. Nulla id semper elit, id pharetra purus. Sed aliquam enim tellus, eget suscipit dui placerat ut. Donec interdum ut mi eget iaculis. Donec fringilla neque at massa fringilla, ut eleifend ante venenatis. Duis a magna lorem. Sed dapibus, turpis sed tempus interdum, nibh sapien pretium nulla, eget volutpat diam elit convallis elit. Praesent condimentum turpis at libero malesuada lacinia nec et elit.",
+        "post_thumbnail": "/public/uploads/pexels-giorgio-de-angelis-1413412.jpg",
+        "post_slug": "",
+        "post_created_at": "2023-08-20 14:15:36",
+        "post_updated_at": "",
+        "post_deleted_at": ""
+    },
+    {
+        "post_id": 3,
+        "post_user_id": 1,
+        "post_title": "Leaves",
+        "post_content": "Morbi quis commodo odio aenean sed adipiscing diam. Libero justo laoreet sit amet cursus sit amet dictum sit. Nec nam aliquam sem et tortor consequat id porta. Quam adipiscing vitae proin sagittis nisl rhoncus. Id nibh tortor id aliquet lectus proin nibh nisl condimentum. Nisl nunc mi ipsum faucibus vitae. Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. A iaculis at erat pellentesque adipiscing commodo elit at. Odio ut enim blandit volutpat. At in tellus integer feugiat scelerisque varius. Tortor at auctor urna nunc id. Aenean sed adipiscing diam donec adipiscing. Sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum. Interdum posuere lorem ipsum dolor sit amet consectetur. Turpis massa sed elementum tempus egestas. Mauris ultrices eros in cursus turpis massa tincidunt. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt. Rhoncus aenean vel elit scelerisque. Urna condimentum mattis pellentesque id nibh tortor id aliquet lectus. Metus vulputate eu scelerisque felis imperdiet proin fermentum.",
+        "post_thumbnail": "/public/uploads/pexels-sohail-nachiti-807598.jpg",
+        "post_slug": "",
+        "post_created_at": "2023-08-15 14:15:36",
+        "post_updated_at": "",
+        "post_deleted_at": ""
+    },
+    {
+        "post_id": 4,
+        "post_user_id": 1,
+        "post_title": "Mountains",
+        "post_content": "Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Dignissim enim sit amet venenatis urna cursus. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Cras sed felis eget velit aliquet sagittis id. Cursus eget nunc scelerisque viverra. Elementum facilisis leo vel fringilla est ullamcorper. Vitae aliquet nec ullamcorper sit amet. Condimentum id venenatis a condimentum vitae sapien. Nunc lobortis mattis aliquam faucibus purus in massa. Sit amet consectetur adipiscing elit duis. Cras tincidunt lobortis feugiat vivamus. Tortor vitae purus faucibus ornare suspendisse. Adipiscing elit ut aliquam purus. Sed nisi lacus sed viverra tellus in hac habitasse platea. Eget aliquet nibh praesent tristique magna. Odio tempor orci dapibus ultrices in iaculis nunc. Eu feugiat pretium nibh ipsum consequat.",
+        "post_thumbnail": "/public/uploads/pexels-eberhard-grossgasteiger-1624496.jpg",
+        "post_slug": "",
+        "post_created_at": "2023-08-17 14:15:36",
+        "post_updated_at": "",
+        "post_deleted_at": ""
+    },
+    {
+        "post_id": 4,
+        "post_user_id": 1,
+        "post_title": "Nothing",
         "post_content": "",
-        "post_created_at": "",
+        "post_thumbnail": "",
+        "post_slug": "",
+        "post_created_at": "2023-08-19 14:15:36",
         "post_updated_at": "",
         "post_deleted_at": ""
     }

@@ -25,10 +25,22 @@ class UsersAPI extends APIRequest{
         return fetch(api_url, this.options)
             .then(res => res.json())
             .then(data => {
-                console.log(data,' data...')
+                // console.log(data,' data...')
                 const user = data.filter((user) => user.user_email === email);
                 return user.length ? user[0] : [];
             });
     }
 }
 
+
+class FeedsAPI extends APIRequest { 
+    endpoint = 'posts.json'
+
+    // async getFeeds(){
+    //     const api_url = this.url + this.endpoint
+    // }
+}
+
+class TagsAPI extends APIRequest {
+    endpoint = "tags.json" 
+}

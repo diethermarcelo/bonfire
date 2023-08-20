@@ -12,7 +12,8 @@ const app_env = {
         {
             name: 'news feed',
             url: pages_path + '/feed.html',
-            icon: 'fa-solid fa-newspaper'
+            icon: 'fa-solid fa-newspaper',
+            pageScriptFunctionName: 'feedPageScripts'
         },
         {
             name: 'chat',
@@ -38,6 +39,7 @@ const app_env = {
         }
     ],
     app_navigation_default_icon: 'fa-solid fa-globe',
+    app_placeholder_img: '/public/images/placeholder.jpg',
     api_url: 'http://localhost:9000/data/'
 }
 

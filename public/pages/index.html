@@ -7,19 +7,20 @@
         <meta name="author" content=""/>
         <meta name="description" content=""/>
         <link rel="stylesheet" href="./../styles/app.css">
+        <link rel="stylesheet" href="./../styles/feeds.css">
         <link rel="stylesheet" href="./../styles/plugins/font-awesome-6-4-all.min.css">
         <link rel="icon" type="image/x-icon" href="./../images/favicon.ico">
     </head>
     <body class="bg-gray">
         <div class="d-flex">
-            <div class="sidebar bg-light shadow px-10 w-100">
+            <div class="sidebar bg-light shadow px-10 w-100 fixed">
                 <header>
                     <h1 class="display-app-title p-2 text-medium mb-5"></h1>
                     <nav class="display-app-navbars"></nav>
                     <div class="bottom-footer display-logout"></div>
                 </header>
             </div>
-            <div class="w-100">
+            <div class="w-100" id="main-container">
                 <div class="top-header">
 
                 </div>
@@ -30,12 +31,18 @@
         </div>
 
 
+        <!-- Plugins -->
         <script src="./../scripts/plugins/font-awesome-6-4-all.min.js"></script>
 
+        <!-- App Scripts -->
         <script src="./../scripts/config/env.js"></script>
         <script src="./../scripts/helpers/common.js"></script>
         <script src="./../scripts/helpers/checkers.js"></script>
         <script src="./../scripts/helpers/prepare-app.js"></script>
+        <script src="./../services/api.js"></script>
         <script src="./../scripts/app.js"></script>
+
+        <!-- Pages Scripts -->
+        <script src="./../scripts/feeds.js"></script>
     </body>
 </html>

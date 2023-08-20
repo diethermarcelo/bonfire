@@ -23,6 +23,17 @@ const attemptLogout = () => {
 }
 
 if(auth_form) {
+    auth_form.addEventListener('keypress', (event) => {
+        // If the user presses the "Enter" key on the keyboard
+        if (event.key === "Enter") {
+            // Cancel the default action, if needed
+            event.preventDefault();
+            // Trigger the button element with a click
+            console.log(auth_form)
+            auth_form.requestSubmit();
+        }
+    })
+
     auth_form.addEventListener('submit', async (e) => {
         e.preventDefault(); 
         try {
