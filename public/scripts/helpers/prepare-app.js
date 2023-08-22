@@ -6,7 +6,11 @@ const activateNavigationEvents = () => {
     const navigations = document.querySelectorAll('.navigation > a');
     addEventListenerList(navigations, 'click', (e) => {
         e.preventDefault();
-        const { href, innerText } = e.target;
+        let el = e.target;
+        if(el.tagName === "SPAN") {
+            el = e.target.parentNode;
+        }
+        const { href, innerText } = el;
         window.history.pushState(innerText, "", href)
         getContent(href);
     })
