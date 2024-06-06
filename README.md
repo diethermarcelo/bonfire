@@ -23,4 +23,5 @@
 - https://assets.materialup.com/uploads/1288e560-c840-49ee-8b71-070dcdfc5112/preview.png
 
 ## Preview:
-![Uploading image.png…]()
+![image](https://github.com/diethermarcelo/chat-hub-web/assets/57478980/1a1c4e3e-dec1-4fbd-8de9-bdf8a6de3304)
+
