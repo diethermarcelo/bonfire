@@ -1,4 +1,4 @@
-# ChatHub Web
+# chat-hub
 - 
 
 ## Technologies:
