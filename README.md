@@ -1,4 +1,4 @@
-# chat-hub
+# bonfire/chat-hub
 - 
 
 ## Technologies:
